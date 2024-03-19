@@ -1,1 +1,89 @@
+body{
+    color: gray;
+    overflow-x: hidden;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+.blue-heading {
+  color: blue;
+}
+header{
+    position: relative ;
+}
 
+.red-paragraph {
+  color: red;
+  font-size: 15px;
+}
+
+
+.image {
+  border: 5px solid green;
+  width: 50px;
+  height: 50px;
+}
+
+
+.form-section {
+  margin-top: 20px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+input[type="password"] {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  width: 48%;
+}
+    .card{padding: 30px 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border: none !important;
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}.blue-text{color: #d9e718}.form-control-label{margin-bottom: 0}input, textarea, 
+button{
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+}
+input:focus, textarea:focus{-moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400}.btn-block{text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 400;
+        height: 43px;
+        cursor: pointer}.btn-block:hover{color: #fff !important}button:focus{-moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            outline-width: 0
+        }
+#button-last{
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 170px;
+}
